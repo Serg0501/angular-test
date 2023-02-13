@@ -1,0 +1,6 @@
+
+<app-main-grid-list  *ngIf="gridListOpen; else listLightOpen"(onExit)="closeForm()"></app-main-grid-list>
+
+<ng-template #listLightOpen>
+    <app-main-list-light *ngIf="!gridListOpen"(addEvent)="onAdding()"></app-main-list-light>
+</ng-template>

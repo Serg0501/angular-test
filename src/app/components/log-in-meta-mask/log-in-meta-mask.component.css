@@ -1,0 +1,76 @@
+.logInSection{
+    position: absolute;
+    width: 1368px;
+    height: 958px;
+    left: 0px;
+    top: 92px;
+}
+
+.logInMetaMask{
+    position: absolute;
+    width: 1368px;
+    height: 958px;
+    left: 0px;
+    top: 0px;
+    background: #1E1E1E;
+    opacity: 0.3;
+    z-index: 7777;
+}
+
+.metaMaskContainer{
+    position: absolute;
+    width: 480px;
+    height: 251px;
+    left: 444px;
+    top: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(74, 74, 74, 0.07);
+    border-radius: 12px;
+    z-index: 8888;
+}
+
+.closeContainer{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 450px;
+    top: 20px;
+    background-image: url(../../../img/close.png);
+    cursor: pointer;
+}
+
+.metaMaskIcon{
+    position: absolute;
+    width: 77px;
+    height: 79px;
+    left: 202px;
+    top: 50px;
+    background-image: url(../../../img/metamask-icon.png);
+}
+
+.metaMaskButton{
+    position: absolute;
+    width: 303px;
+    height: 42px;
+    left: 88px;
+    top: 159px;
+    background: #1E1E1E;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.metaMaskButtonDescription{
+    position: absolute;
+    width: 243px;
+    height: 18px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F8F8F8;
+    cursor: pointer;
+}

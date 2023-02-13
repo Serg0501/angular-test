@@ -1,0 +1,150 @@
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 1368px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #1E1E1E;
+    box-shadow: 0px 10px 30px rgba(74, 74, 74, 0.2);
+}
+
+.logoContainer{
+    position: absolute;
+    width: 134px;
+    height: 52px;
+    left: 84px;
+    top: 20px;
+    background-image: url(../../../img/logo.svg);
+}
+
+.leftLineContainer{
+    position: absolute;
+    width: 1px;
+    height: 42px;
+    left: 248px;
+    top: 25px;
+    background: #F8F8F8;
+    border-radius: 2px;
+}
+
+.searchContainer{
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    left: 279px;
+    top: 35px;
+    background-image: url(../../../img/search.png);
+    cursor: pointer;
+}
+
+a{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F8F8F8; 
+    text-decoration: none; 
+}
+
+.newsContainer{
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 518px;
+    top: 37px;
+}
+
+.financesContainer{
+    position: absolute;
+    width: 61px;
+    height: 18px;
+    left: 608px;
+    top: 37px;
+}
+
+.tradingContainer{
+    position: absolute;
+    width: 73px;
+    height: 18px;
+    left: 699px;
+    top: 37px;
+}
+
+.analyticsContainer{
+    position: absolute;
+    width: 77px;
+    height: 18px;
+    left: 802px;
+    top: 37px;
+}
+
+.investmentsContainer{
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 909px;
+    top: 37px;
+}
+
+.buttonContainer{
+    position: absolute;
+    width: 196px;
+    height: 42px;
+    left: 1023px;
+    top: 25px;
+    border: 1px solid #F8F8F8;
+    border-radius: 12px; 
+    background: #1E1E1E;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonDescription{
+    position: absolute;
+    width: 125px;
+    height: 18px;
+    left: 25px;
+    top: 12px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F8F8F8;
+}
+
+.lockIcon{
+    position: absolute;
+    height: 14px;
+    width: 13px;
+    left: 158px;
+    top: 14px;
+    background-image: url(../../../img/lock.png);
+}
+
+.rightLineContainer{
+    position: absolute;
+    width: 1px;
+    height: 42px;
+    left: 1239px;
+    top: 25px;
+    background: #F8F8F8;
+    border-radius: 2px;
+}
+
+.lightVersionContainer{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 1260px;
+    top: 34px;
+    background-image: url(../../../img/light_version.svg);
+    cursor: pointer;
+}
+
+
+

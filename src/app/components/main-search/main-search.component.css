@@ -1,0 +1,54 @@
+.searchContainer{
+    position: absolute;
+    width: 1368px;
+    height: 70px;
+    left: 0px;
+    top: 92px;
+    background: #F8F8F8;
+    z-index: 7777;
+}
+
+.search{
+   position: absolute;
+    width: 76px;
+    height: 18px;
+    left: 84px;
+    top: 26px; 
+}
+
+.searchInput{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #1E1E1E;
+    outline: none;
+    border: none;
+    border: solid 1px #F8F8F8;;
+    background: #F8F8F8;
+}
+
+.searchTriangle{
+    position: absolute;
+    width: 20px;
+    height: 11px;
+    left: 279px;
+    top: 0px;
+    background-image: url(../../../img/searchTriangle.png);
+}
+
+.searchBacgroundContainer{
+    position: absolute;
+    width: 1368px;
+    height: 888px;
+    left: 0px;
+    top: 162px;
+    background: #1E1E1E;
+    opacity: 0.3;
+    z-index: 7777;
+}
+
+/* .hiden{
+    display: none;
+}  */

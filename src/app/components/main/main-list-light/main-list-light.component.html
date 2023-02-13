@@ -1,0 +1,59 @@
+<main>
+    <section class="titleSection">
+        <div class="lastPublicationContainer">Останні публікації</div>
+        <div class="viewContainer">
+            <p class="view">Вигляд:</p> 
+            <div class="toggleContainer">
+                <button class="listIconContainer">
+                    <div class="listIcon"></div>
+                </button>
+                <button class="gridIconContainer">
+                    <div (click)="onAdd()" class="gridIcon"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="postContainer">
+        <div class="post1 postCard">
+            <div class="posActivatedImg"></div>
+            <div class="posActivatedContainer">
+                <p class="posActivatedTitle">{{posTitle}}</p>
+                <div class="posActivatedTitleIcon"></div>
+                <div class="posActivatedDescription">{{posDescription}}</div>
+                <div class="postDate">{{date}}</div>
+                <a href="#" class="readMore"></a>
+            </div>
+        </div>
+        <div class="post2 postCard">
+            <div class="binanceImg"></div>
+            <div class="binanceTitleContainer">{{binanceTitle}}</div>
+            <div class="binanceDescription">{{binanceDescription}}</div>
+            <div class="postDate">{{date}}</div>
+            <a href="#" class="readMore"></a>
+        </div>
+        <div class="post3 postCard">
+            <div class="posActivatedImg"></div>
+            <div class="posActivatedContainer">
+                <p class="posActivatedTitle">{{posTitle}}</p>
+                <div class="posActivatedTitleIcon"></div>
+                <div class="posActivatedDescription">{{posDescription}}</div>
+                <div class="postDate">{{date}}</div>
+                <a href="#" class="readMore"></a>
+            </div>
+        </div>
+        <div class="post4 postCard">
+            <div class="binanceImg"></div>
+            <div class="binanceTitleContainer">{{binanceTitle}}</div>
+            <div class="binanceDescription">{{binanceDescription}}</div>
+            <div class="postDate">{{date}}</div>
+            <a href="#" class="readMore"></a>
+        </div>     
+    </section>
+    <section class="pagesContainer">
+        <a class="prewPage" href="#"></a>
+        <a class="page1 pages active" href="#">1</a>
+        <a class="page2 pages" href="#">2</a>
+        <a class="page3 pages" href="#">3</a>
+        <a class="nextPage" href="#"></a>
+    </section>
+</main>
