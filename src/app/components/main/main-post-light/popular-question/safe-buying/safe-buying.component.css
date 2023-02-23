@@ -1,0 +1,118 @@
+.safeBuyingContainer{
+    position: absolute;
+    width: 1200px;
+    height: 362px;
+    top: 132px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(74, 74, 74, 0.07);
+    border-radius: 12px;
+}
+
+.safeBuyingTitle{
+    position: absolute;
+    width: 417px;
+    height: 20px;
+    left: 30px;
+    top: 23px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.iconClose{
+    position: absolute;
+    width: 25px;
+    height: 2.78px;
+    left: 1145px;
+    top: 30.11px;
+    background-image: url(../../../../../../img/Group18.png);
+    cursor: pointer;
+}
+
+.optionList{
+    position: absolute;
+    width: 434px;
+    height: 18px;
+    left: 30px;
+    top: 73px;
+}
+
+.fontStyle{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E1E1E;
+}
+
+.marketOption{
+    position: absolute;
+    width: 47px;
+    height: 18px;
+    left: 30px;
+    top: 111px;
+    font-weight: bold;
+}
+
+.binanceMarket{
+    position: absolute;
+    width: 604px;
+    height: 18px;
+    left: 30px;
+    top: 139px;
+}
+
+.linkStyle{
+    text-decoration-line: underline; 
+    color: #389FFB;
+}
+
+.kunaMarket{
+    position: absolute;
+    width: 604px;
+    height: 18px;
+    left: 30px;
+    top: 167px;
+}
+
+.exchangesOption{
+    position: absolute;
+    width: 93px;
+    height: 18px;
+    left: 30px;
+    top: 205px;
+    font-weight: bold;
+}
+
+.bestchangeExchange{
+    position: absolute;
+    width: 925px;
+    height: 18px;
+    left: 30px;
+    top: 233px;
+}
+
+.kitExchange{
+    position: absolute;
+    width: 449px;
+    height: 18px;
+    left: 30px;
+    top: 266px;
+}
+
+.moreInformation{
+    position: absolute;
+    width: 395px;
+    height: 18px;
+    left: 30px;
+    top: 314px;
+    font-style: italic;
+}
+
+.moreInformation .a {
+    font-style: italic;
+}

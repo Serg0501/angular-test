@@ -1,0 +1,53 @@
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 1368px;
+    height: 4029px;
+    background: #F8F8F8;
+}
+
+.prewPost{
+    position: absolute;
+    width: 58px;
+    height: 18px;
+    left: 84px;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prewPostIcon{
+    width: 6px;
+    height: 10px;
+    background-image: url(../../../../img/Vector_59.png);
+}
+
+.nextPost{
+    position: absolute;
+    width: 136px;
+    height: 18px;
+    left: 1148px;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nextPostIcon{
+    width: 6px;
+    height: 10px;
+    background-image: url(../../../../img/Vector_60.png);
+}
+
+.postStyle{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9D9D9D;
+    text-decoration: none;
+}

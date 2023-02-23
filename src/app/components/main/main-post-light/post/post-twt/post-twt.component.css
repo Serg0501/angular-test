@@ -1,0 +1,118 @@
+
+.postChapter{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.TWTIcon{
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    left: 30px;
+    top: 492px;
+    background-image: url(../../../../../../img/Rectangle_18.png);
+}
+
+.TWTTitle{
+    position: absolute;
+    width: 364px;
+    height: 25px;
+    left: 42px;
+    top: 492px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+
+.TWTLink{
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 30px;
+    top: 537px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;  
+    color: #389FFB;
+}
+
+.TWTTerm{
+    position: absolute;
+    width: 1060px;
+    height: 20px;
+    left: 70px;
+    top: 537px;
+}
+
+.TWTDescription{
+    position: absolute;
+    width: 1139px;
+    height: 60px;
+    left: 30px;
+    top: 557px;
+}
+
+.TWTWebsiteLink{
+    position: absolute;
+    width: 529px;
+    height: 18px;
+    left: 30px;
+    top: 637px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.websiteLink{
+    text-decoration-line: underline;
+    color: #389FFB;
+}
+
+.TWTImage{
+    position: absolute;
+    width: 540px;
+    height: 380px;
+    left: 330px;
+    top: 685px;
+    filter: drop-shadow(0px 0px 30px rgba(74, 74, 74, 0.07));
+    border-radius: 10px;
+    background: url(../../../../../../img/imageTWT.png) no-repeat center;
+    background-size: cover;
+}
+
+.websiteTW{
+    position: absolute;
+    width: 209px;
+    height: 18px;
+    left: 496px;
+    top: 1075px;
+}
+
+.link{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9D9D9D;
+}
+
+.ourInstruction{
+    position: absolute;
+    width: 212px;
+    height: 18px;
+    left: 30px;
+    top: 1113px;
+}

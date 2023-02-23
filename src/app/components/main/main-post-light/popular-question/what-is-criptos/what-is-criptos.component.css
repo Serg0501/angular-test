@@ -1,0 +1,36 @@
+.whatIsCriptos{
+    position: absolute;
+    width: 1200px;
+    height: 67px;
+    top: 45px;
+    background: #FFFFFF; 
+    box-shadow: 0px 0px 20px rgba(74, 74, 74, 0.07);
+    border-radius: 12px;
+}
+
+.whatIsCriptosTitle{
+    position: absolute;
+    width: 213px;
+    height: 20px;
+    left: 30px;
+    top: 23px;
+}
+
+.titleStyle{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.whatIsCriptosOpenIcon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1145px;
+    top: 20px;
+    background-image: url(../../../../../../img/Group17.png);  
+    cursor: pointer;  
+}

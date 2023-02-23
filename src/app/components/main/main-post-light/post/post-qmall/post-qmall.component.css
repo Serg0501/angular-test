@@ -1,0 +1,172 @@
+.qmallIcon{
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    left: 30px;
+    top: 2007px;
+    background-image: url(../../../../../../img/Rectangle_18.png);
+}
+
+.qmallTitle{
+    position: absolute;
+    width: 621px;
+    height: 25px;
+    left: 42px;
+    top: 2007px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+
+.qmallLink{
+    position: absolute;
+    width: 32px;
+    height: 18px;
+    left: 30px;
+    top: 2052px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #389FFB;
+}
+
+.qmallTerm{
+    position: absolute;
+    width: 1046px;
+    height: 20px;
+    left: 88px;
+    top: 2052px;
+}
+
+.qmallDescription{
+    position: absolute;
+    width: 1126px;
+    height: 60px;
+    left: 30px;
+    top: 2079px;
+}
+
+.postChapter{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.postChapterLower{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #1E1E1E;
+}
+
+.qmallQuestion{
+    position: absolute;
+    width: 233px;
+    height: 18px;
+    left: 30px;
+    top: 2110px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E1E1E;
+}
+
+.qmallAnswer{
+    position: absolute;
+    width: 1094px;
+    height: 20px;
+    left: 30px;
+    top: 2138px;
+}
+
+.qmallLinkTitle{
+    position: absolute;
+    width: 210px;
+    height: 18px;
+    left: 30px;
+    top: 2158px;
+}
+
+.qmallTitleLink{
+    text-decoration-line: underline;    
+    color: #389FFB;
+}
+
+.qmallImage{
+    position: absolute;
+    width: 540px;
+    height: 380px;
+    left: 330px;
+    top: 2206px;
+    background: url(../../../../../../img/imageQMALL.png);
+    filter: drop-shadow(0px 0px 30px rgba(74, 74, 74, 0.07));
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.webSiteQmall{
+    position: absolute;
+    width: 99px;
+    height: 18px;
+    left: 551px;
+    top: 2596px;
+    color: #9D9D9D;
+}
+
+.linkColor{
+    color: #9D9D9D;
+}
+
+.qmallRegistration{
+    position: absolute;
+    width: 374px;
+    height: 18px;
+    left: 30px;
+    top: 2634px;
+}
+
+.remark{
+    position: absolute;
+    width: 114px;
+    height: 25px;
+    left: 30px;
+    top: 2682px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #389FFB;
+}
+
+.remarkIcon{
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    left: 30px;
+    top: 2727px;
+    background-image: url(../../../../../../img/Rectangle_18.png);
+}
+
+.remarkDescription{
+    position: absolute;
+    width: 1094px;
+    height: 40px;
+    left: 42px;
+    top: 2727px;
+    font-style: italic;
+}
+

@@ -76,7 +76,7 @@ main{
     width: 46px;
     height: 29px;
     background: #1E1E1E;
-    border-radius: 7px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,133 +107,10 @@ main{
     display: flex;
 }
 
-.posActivatedImg{
-    width: 235px;
-    height: 235px;
-    border-radius: 12px 0 0 12px;
-    background-image: url(../../../../img/pos.png);
-}
-
-.posActivatedContainer{
-    width: 350px;
-}
-
-.posActivatedTitleUp{
-    position: absolute;
-    width: 249px;
-    height: 20px;
-    left: 250px;
-    top: 15px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1E1E1E;
-    margin: 0;
-}
-
-.posActivatedTitleDown{
-    position: absolute;
-    width: 56px;
-    height: 20px;
-    left: 250px;
-    top: 35px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1E1E1E;
-    margin: 0;
-}
-
-.posActivatedTitleIcon{
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 311px;
-    top: 35px;
-    background-image: url(../../../../img/fire.png);
-}
-
-.posActivatedDescription{
-    position: absolute;
-    width: 295px;
-    height: 120px;
-    top: 65px;
-    left: 250px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #1E1E1E;
-    margin: 0;
-}
-
-.postDate{
-    position: absolute;
-    width: 82px;
-    height: 15px;
-    left: 250px;
-    top: 205px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #9D9D9D;
-}
-
-.readMore{
-    position: absolute;
-    width: 92px;
-    height: 15px;
-    left: 478px;
-    top: 205px;
-    background-image: url(../../../../img/link.png);
-}
-
 .post2{
     position: absolute;
     left: 699px;
     top: 105px;
-}
-
-.binanceImg{
-    width: 235px;
-    height: 235px;
-    border-radius: 12px 0 0 12px;
-    background-image: url(../../../../img/binance.png);
-}
-
-.binanceContainer{
-    position: absolute;
-    width: 258px;
-    height: 40px;
-    left: 250px;
-    top: 15px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1E1E1E;
-}
-
-.binanceDescription{
-    position: absolute;
-    width: 311px;
-    height: 120px;
-    left: 250px;
-    top: 65px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #1E1E1E;
 }
 
 .post3{

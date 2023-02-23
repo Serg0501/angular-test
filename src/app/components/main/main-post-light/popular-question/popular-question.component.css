@@ -1,0 +1,20 @@
+.popularQuestionContainer{
+    position: absolute;
+    width: 1200px;
+    height: 668px;
+    left: 84px;
+    top: 2971px;
+}
+
+.title{
+    position: absolute;
+    width: 330px;
+    height: 25px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E1E1E; 
+}
+

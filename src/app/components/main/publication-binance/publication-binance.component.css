@@ -1,0 +1,68 @@
+.postCard{
+    width: 585px;
+    height: 235px;
+    position: absolute;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(74, 74, 74, 0.07);
+    border-radius: 12px;
+}
+
+.binanceImg{
+    width: 235px;
+    height: 235px;
+    
+    border-radius: 12px 0 0 12px;
+    background-image: url(../../../../img/binance.png);
+}
+
+.binanceContainer{
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    left: 250px;
+    top: 15px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.binanceDescription{
+    position: absolute;
+    width: 311px;
+    height: 120px;
+    left: 250px;
+    top: 65px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.postDate{
+    position: absolute;
+    width: 82px;
+    height: 15px;
+    left: 250px;
+    top: 205px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9D9D9D;
+}
+
+.readMore{
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 478px;
+    top: 205px;
+    background-image: url(../../../../img/link.png);
+}

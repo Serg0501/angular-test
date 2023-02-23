@@ -1,0 +1,156 @@
+
+.postNavigationContainer{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9D9D9D;
+}
+.postNavigation{
+    position: absolute;
+    width: 131px;
+    height: 18px;
+    left: 30px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postNavigationIcon{
+    width: 6px;
+    height: 10px;
+    background-image: url(../../../../../../img/Vector_60.png);
+}
+
+.dateContainer{
+    position: absolute;
+    width: 139px;
+    height: 18px;
+    left: 953px;
+    top: 30px;
+}
+
+.viewsContainer{
+    position: absolute;
+    width: 58px;
+    height: 18px;
+    left: 1112px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewsContainerIcon{
+    Width: 19px;
+    Height: 13px;
+    background-image: url(../../../../../../img/Vector_2.png);
+}
+
+.postTitle{
+    position: absolute;
+    width: 250px;
+    height: 31px;
+    left: 30px;
+    top: 68px; 
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #1E1E1E;
+}
+
+.postTitleDescription{
+    position: absolute;
+    width: 1075px;
+    height: 40px;
+    left: 30px;
+    top: 119px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+
+.contentArticle{
+    position: absolute;
+    width: 509px;
+    height: 145px;
+    left: 30px;
+    top: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentArticleTitle{
+    width: 141px;
+    height: 25px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+
+.contentArticleIcon{
+    width: 9px;
+    height: 16px;
+    background-image: url(../../../../../../img/Vector_61.png);
+}
+
+.contentArticlePart{
+    display: flex;
+    align-items: center;
+}
+
+.contentArticleLink{
+    position: absolute;
+    left: 22px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #389FFB;
+}
+
+.chapterAbout{
+    position: absolute;
+    width: 295px;
+    height: 18px;
+    left: 30px;
+    top: 364px;
+}
+
+.chapterRemind{
+    position: absolute;
+    width: 1021px;
+    height: 20px;
+    left: 30px;
+    top: 392px;
+}
+
+.chapterOverview{
+    position: absolute;
+    width: 1136px;
+    height: 40px;
+    left: 30px;
+    top: 422px;
+}
+
+.postChapter{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E1E;
+}

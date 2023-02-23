@@ -14,60 +14,12 @@
         </div>
     </section>
     <section class="postContainer">
-        <div class="post1 postCard">
-            <div class="posActivatedImg"></div>
-            <div class="posActivatedContainer">
-                <p class="posActivatedTitleUp">Ethereum успішно перейшов</p>
-                <p class="posActivatedTitleDown">на PoS</p>
-                <div class="posActivatedTitleIcon"></div>
-                <div class="posActivatedDescription">{{posDescription}}</div>
-                <div class="postDate">{{date}}</div>
-                <a href="#" class="readMore"></a>
-            </div>
-        </div>
-        <div class="post2 postCard">
-            <div class="binanceImg"></div>
-            <div class="binanceContainer">{{binanceTitle}}</div>
-            <div class="binanceDescription">{{binanceDescription}}</div>
-            <div class="postDate">{{date}}</div>
-            <a href="#" class="readMore"></a>
-        </div>
-        <div class="post3 postCard">
-            <div class="binanceImg"></div>
-            <div class="binanceContainer">{{binanceTitle}}</div>
-            <div class="binanceDescription">{{binanceDescription}}</div>
-            <div class="postDate">{{date}}</div>
-            <a href="#" class="readMore"></a>
-        </div>
-        <div class="post4 postCard">
-            <div class="posActivatedImg"></div>
-            <div class="posActivatedContainer">
-                <p class="posActivatedTitleUp">Ethereum успішно перейшов</p>
-                <p class="posActivatedTitleDown">на PoS</p>
-                <div class="posActivatedTitleIcon"></div>
-                <div class="posActivatedDescription">{{posDescription}}</div>
-                <div class="postDate">{{date}}</div>
-                <a href="#" class="readMore"></a>
-            </div>
-        </div>
-        <div class="post5 postCard">
-            <div class="posActivatedImg"></div>
-            <div class="posActivatedContainer">
-                <p class="posActivatedTitleUp">Ethereum успішно перейшов</p>
-                <p class="posActivatedTitleDown">на PoS</p>
-                <div class="posActivatedTitleIcon"></div>
-                <div class="posActivatedDescription">{{posDescription}}</div>
-                <div class="postDate">{{date}}</div>
-                <a href="#" class="readMore"></a>
-            </div>
-        </div>
-        <div class="post6 postCard">
-            <div class="binanceImg"></div>
-            <div class="binanceContainer">{{binanceTitle}}</div>
-            <div class="binanceDescription">{{binanceDescription}}</div>
-            <div class="postDate">{{date}}</div>
-            <a href="#" class="readMore"></a>
-        </div>
+        <app-publication-ethereum class="post1"></app-publication-ethereum>
+        <app-publication-binance class="post2"></app-publication-binance>
+        <app-publication-binance class="post3"></app-publication-binance>
+        <app-publication-ethereum class="post4"></app-publication-ethereum>
+        <app-publication-ethereum class="post5"></app-publication-ethereum>
+        <app-publication-binance class="post6"></app-publication-binance>
     </section>
     <section class="pagesContainer">
         <a class="prewPage" href="#"></a>
