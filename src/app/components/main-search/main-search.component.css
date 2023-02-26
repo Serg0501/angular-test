@@ -36,6 +36,7 @@
     left: 279px;
     top: 0px;
     background-image: url(../../../img/searchTriangle.png);
+    cursor: pointer;
 }
 
 .searchBacgroundContainer{
@@ -49,6 +50,3 @@
     z-index: 7777;
 }
 
-/* .hiden{
-    display: none;
-}  */

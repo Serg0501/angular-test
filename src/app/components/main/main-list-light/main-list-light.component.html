@@ -7,8 +7,9 @@
                 <button class="listIconContainer">
                     <div class="listIcon"></div>
                 </button>
-                <button class="gridIconContainer">
-                    <div (click)="onAdd()" class="gridIcon"></div>
+                <button [routerLink]="['/main-grid']" class="gridIconContainer">
+                    <!-- <div (click)="onAdd()" class="gridIcon"></div> -->
+                    <div class="gridIcon"></div>
                 </button>
             </div>
         </div>

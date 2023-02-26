@@ -33,6 +33,7 @@ import { MainGridSearchComponent } from './Pages/main-grid-search/main-grid-sear
 import { MainGridLoginMetaMaskComponent } from './Pages/main-grid-login-meta-mask/main-grid-login-meta-mask.component';
 import { MainGridLoginMessageComponent } from './Pages/main-grid-login-message/main-grid-login-message.component';
 import { PostOneComponent } from './Pages/post-one/post-one.component';
+import { NotFoundComponent } from './Pages/not-found/not-found.component';
 
 
 
@@ -69,7 +70,8 @@ import { PostOneComponent } from './Pages/post-one/post-one.component';
     MainGridSearchComponent,
     MainGridLoginMetaMaskComponent,
     MainGridLoginMessageComponent,
-    PostOneComponent
+    PostOneComponent,
+    NotFoundComponent
     
   
     

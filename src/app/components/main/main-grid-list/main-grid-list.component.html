@@ -4,7 +4,8 @@
         <div class="viewContainer">
             <p class="view">Вигляд:</p> 
             <div class="toggleContainer">
-                <button (click)="exitForm()" class="listIconContainer">
+                <button [routerLink]="['/main-list']" class="listIconContainer">
+                <!-- <button [routerLink]="['/main-list']" (click)="exitForm()" class="listIconContainer"> -->
                     <div class="listIcon"></div>
                 </button>
                 <button class="gridIconContainer">
