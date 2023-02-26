@@ -27,6 +27,12 @@ import { SimilarPublicationsComponent } from './components/main/main-post-light/
 import { PublicationsComponent } from './components/main/main-post-light/similar-publications/publications/publications.component';
 import { PublicationEthereumComponent } from './components/main/publication-ethereum/publication-ethereum.component';
 import { PublicationBinanceComponent } from './components/main/publication-binance/publication-binance.component';
+import { MainGridComponent } from './Pages/main-grid/main-grid.component';
+import { MainListComponent } from './Pages/main-list/main-list.component';
+import { MainGridSearchComponent } from './Pages/main-grid-search/main-grid-search.component';
+import { MainGridLoginMetaMaskComponent } from './Pages/main-grid-login-meta-mask/main-grid-login-meta-mask.component';
+import { MainGridLoginMessageComponent } from './Pages/main-grid-login-message/main-grid-login-message.component';
+import { PostOneComponent } from './Pages/post-one/post-one.component';
 
 
 
@@ -57,7 +63,13 @@ import { PublicationBinanceComponent } from './components/main/publication-binan
     SimilarPublicationsComponent,
     PublicationsComponent,
     PublicationEthereumComponent,
-    PublicationBinanceComponent
+    PublicationBinanceComponent,
+    MainGridComponent,
+    MainListComponent,
+    MainGridSearchComponent,
+    MainGridLoginMetaMaskComponent,
+    MainGridLoginMessageComponent,
+    PostOneComponent
     
   
     
